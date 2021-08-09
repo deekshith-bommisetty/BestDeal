@@ -16,7 +16,7 @@ const HomeScreen = () => {
   const { loading, error, products } = useSelector(
     (state) => state.productList
   );
-
+  console.log(products);
   return (
     <>
       <h1>Latest Products</h1>
@@ -27,8 +27,7 @@ const HomeScreen = () => {
       ) : (
         <Row>
           {products &&
-            products.products &&
-            products.products.map((product) => (
+            products.map((product) => (
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
                 <Product product={product} />
               </Col>
