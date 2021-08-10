@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-**BestDeal** is an E-Commerce application where customers can register and sign in, shop for products, place an order and pay. This web application was developed using Node.js, React.js, Express.js and MongoDB.
+**BestDeal** is an E-Commerce application where customers can register, sign in, shop for products, place an order and pay. This web application was developed using Node.js, React.js, Express.js and MongoDB.
 
 #### Please check out the link for demo: https://best-deal-app-mern.herokuapp.com/
 
